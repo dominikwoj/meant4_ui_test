@@ -17,7 +17,7 @@
    > py -m pip install -r requirements.txt
  
 7. Run tests
-   > pytest script_test.py -s -vv
+   > behave tests/e2e/features/ 
 
 OR
 
@@ -39,4 +39,4 @@ OR
    > py -m pip install -r requirements.txt
  
 7. Run tests
-   > pytest script_test.py -s -vv
+   > behave tests/e2e/features/ 
