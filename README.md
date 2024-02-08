@@ -1,3 +1,26 @@
+1. Clone repo to local dir
+   > git clone https://github.com/dominikwoj/meant4_ui_test.git venv_ui_test
+
+2. Install a virtual environment
+    > py -m pip install virtualenv
+
+3. Create the virtual environment
+    > py -m venv venv_ui_test
+
+4. Got to the virtual environment dir
+    > cd venv_ui_test
+
+5. Run the virtual environment
+    > Script\activate
+
+6. Install necessary packages
+   > py -m pip install -r requirements.txt
+ 
+7. Run tests
+   > pytest script_test.py -s -vv
+
+OR
+
 1. Install a virtual environment
     > py -m pip install virtualenv
 
@@ -16,5 +39,4 @@
    > py -m pip install -r requirements.txt
  
 7. Run tests
-   > behave tests/e2e/features/ 
-   
+   > pytest script_test.py -s -vv
